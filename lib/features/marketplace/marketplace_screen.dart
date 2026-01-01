@@ -19,7 +19,7 @@ class MarketplaceScreen extends StatelessWidget {
         child: LayoutBuilder(
           builder: (context, constraints) {
             final width = constraints.maxWidth;
-            final packColumns = width >= 820 ? 2 : 1;
+            final packColumns = width >= 830 ? 2 : 1;
             final templateColumns = width >= 1100 ? 3 : width >= 720 ? 2 : 1;
             final toolColumns = width >= 1100 ? 3 : width >= 720 ? 2 : 1;
 
